@@ -22,10 +22,7 @@ RouteMap buildRouteMap(BuildContext context) {
       );
     },
     routes: {
-      '/': (route) => NoAnimationPage(
-              child: MyHomePage(
-            title: 'Test',
-          )),
+      '/': (route) => NoAnimationPage(child: MyHomePage()),
       '/login': (route) => NoAnimationPage(
             child: LoginPage(),
           ),
